@@ -1,0 +1,30 @@
+# Ignore virtual environments
+.venv/
+venv/
+env/
+
+# Ignore compiled Python files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+*.swp
+
+# Ignore system and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Ignore Selenium WebDriver binaries
+chromedriver
+chromedriver.exe
+geckodriver
+geckodriver.exe
+
+# Ignore output data
+data/*.csv
