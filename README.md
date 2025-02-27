@@ -14,41 +14,6 @@ This project automates the extraction of species data from the IUCN Red List usi
 
 🔎 Multiple Conservation Categories – Classifies species as Least Concern, Vulnerable, Endangered, Critically Endangered, or Extinct.
 
-📂 Repository Structure
-
-📦 iucn-species-predictor
-│-- 📂 data/                  # Dataset and processed data
-│   ├── scraped_data.csv       # Data collected using Selenium
-│   ├── cleaned_data.csv       # Preprocessed dataset for ML
-│
-│-- 📂 models/                # Machine learning models
-│   ├── model.pkl             # Trained model (saved)
-│   ├── model_metadata.json    # Model details (features, parameters)
-│
-│-- 📂 notebooks/             # Jupyter Notebooks for analysis
-│   ├── EDA.ipynb             # Exploratory Data Analysis
-│   ├── Training.ipynb        # Model training steps
-│   ├── Evaluation.ipynb      # Model evaluation
-│
-│-- 📂 scripts/               # Python scripts for automation
-│   ├── scraper.py            # Selenium-based web scraper
-│   ├── preprocess.py         # Data cleaning & preprocessing
-│   ├── train_model.py        # ML model training
-│   ├── predict.py            # ML model inference
-│
-│-- 📂 deployment/            # Azure deployment files
-│   ├── azure_function.py     # Azure Function script
-│   ├── requirements.txt      # Python dependencies
-│   ├── Dockerfile            # Docker setup (if used)
-│
-│-- 📂 docs/                  # Documentation & reports
-│   ├── project_report.pdf    # Your full project report
-│   ├── architecture.png      # System architecture diagram
-│
-│-- .gitignore                # Ignore unnecessary files
-│-- README.md                 # Main project documentation
-│-- requirements.txt          # Python dependencies
-│-- LICENSE                   # (Optional) Open-source license
 
 ⚡ Installation & Setup
 
@@ -112,13 +77,6 @@ Example API Output (Prediction)
   "predicted_status": "Endangered"
 }
 
-📊 Model Performance
-
-Algorithm Used: Multiclass Boosted Decision Tree
-
-Accuracy: 61%
-
-Precision (Macro): 42.53%
 
 Recall (Macro): 39.8%
 
